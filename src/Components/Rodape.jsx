@@ -1,14 +1,36 @@
+import { FaGithubSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
+
 export default function Rodape(){
+
+
     return(
         <>
-            <footer>
-                <h3>Contato</h3>
-                <a href="#">GitHub</a>
-                <a href="#">Twitter</a>
-                <a href="#">Whatsapp</a>
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
+            <footer className="bg-neutral-900">
+                <h3 className="text-center font-extrabold text-4xl p-14 text-violet-400">Contato</h3>
+                <nav className="grid grid-cols-2 p-4">
+                    <div className="mb-5">
+                        <a href="#" className="text-xl p-2 hover:text-orange-400"><FaGithubSquare className="inline"/>GitHub</a>
+                    </div>
+                    <div className="mb-5">
+                        <a href="#" className="text-xl p-2   hover:text-sky-400 sm:text-lg"><FaSquareXTwitter className="inline"/>Twitter</a>
+                    </div>
+                    <div className="mb-5">
+                        <a href="#" className="text-xl p-2 hover:text-green-500"><FaWhatsappSquare className="inline"/>Whatsapp</a>
+                    </div>
+                    <div className="mb-5">
+                        <a href="#" className="text-xl p-2 hover:text-red-300"><FaInstagramSquare className="inline"/>
+                        Instagram</a>
+                    </div>
+                    <div className="mb-5">
+                        <a href="#" className="text-xl p-2 hover:text-blue-600"><FaLinkedin className="inline"/>
+                        LinkedIn</a>
+                    </div>
+                </nav>
             </footer>
         </>
     )
