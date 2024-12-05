@@ -11,7 +11,7 @@ export default function Rodape(){
     return(
         <>
             <footer className="bg-neutral-900">
-                <h3 className="text-center font-extrabold text-4xl p-14 text-violet-400">Contato</h3>
+                <h3 className="text-center font-extrabold text-4xl p-14 text-violet-400">/ Contato</h3>
                 <nav className="grid grid-cols-2 p-4">
                     <div className="mb-5">
                         <a href="#" className="text-xl p-2 hover:text-orange-400"><FaGithubSquare className="inline"/>GitHub</a>
