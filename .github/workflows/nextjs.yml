@@ -18,11 +18,8 @@ jobs:
       uses: actions/checkout@v2
     
     - name: Install Node.js
-<<<<<<< HEAD
+
       uses: actions/setup-node@v2
-=======
-      uses: actions/setup-node@v4
->>>>>>> 8454a55f8489ccc0fee53632d5327d0083f8c48a
       with:
         node-version: '16'
     
