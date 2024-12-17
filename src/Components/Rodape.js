@@ -4,6 +4,8 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
+import Qrcode from "../Assets/Qrcode.jpg"
+
 export default function Rodape(){
 
     return(
@@ -12,7 +14,7 @@ export default function Rodape(){
                 <h3 className="text-center font-extrabold text-4xl w-full p-14 text-violet-400">/ Contato</h3>
                     <div className="w-[280px]">
                         <p className="text-center text-violet-400 text-2xl">Ajude um dev iniciante!</p>
-                        qrcode
+                        <img src={Qrcode}/>
                     </div>
                 <nav className="">
                     <div className="mb-5">

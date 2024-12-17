@@ -1,4 +1,5 @@
 import { FaReact } from "react-icons/fa";
+import Homem from "../Assets/homemdecapuz.png";
 
 export default function Bstart(){
     return(
@@ -11,7 +12,7 @@ export default function Bstart(){
                 </div>
                 <div className="flex flex-col items-center">
                     <div>
-                    fotohomemcapuz
+                    <img src={Homem}/>
                     </div>
                     <div className="flex border-2 border-zinc-500 w-4/5 pl-2">
                         <FaReact className="text-violet-400 text-4xl self-center"/>
