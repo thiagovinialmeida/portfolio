@@ -5,8 +5,8 @@ export default function Topo(){
         <>
         <header className="">
             <div className="flex justify-between">
-                <h1>Thvini</h1>
-                <RxHamburgerMenu className="text-4xl botao show sm:hidden" onClick={()=>{
+                <h1>THDev</h1>
+                <RxHamburgerMenu id="burger-menu" className="text-4xl botao sm:hidden" onClick={()=>{
                     
                     console.log('Botão apertado')
                 }}/>
