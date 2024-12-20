@@ -1,5 +1,5 @@
 import { FaReact } from "react-icons/fa";
-import Homem from "../Assets/homemdecapuz.png";
+import Foto from "../Assets/file2.png";
 
 export default function Bstart(){
     return(
@@ -11,9 +11,7 @@ export default function Bstart(){
                     <p className="text-zinc-400 w-10/12 m-auto text-right p-5 mt-5">Com tecnologia e harmonia, dando vida á sites que são a cara do futuro.</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <div>
-                    <img src={Homem}/>
-                    </div>
+                    <img src={Foto} className="w-6/12"/>
                     <div className="flex border-2 border-zinc-500 w-4/5 pl-2">
                         <FaReact className="text-violet-400 text-4xl self-center"/>
                         <p className="font-bold text-lg p-5">Sempre há como melhorar!</p>
