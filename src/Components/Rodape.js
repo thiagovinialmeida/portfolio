@@ -7,7 +7,7 @@ export default function Rodape(){
 
     return(
         <>
-            <footer className="bg-neutral-900 flex flex-wrap">
+            <footer id="Contato" className="bg-neutral-900 flex flex-wrap">
                 <h3 className="text-center font-extrabold text-4xl w-full p-14 text-violet-400">/ Contato</h3>
                 <nav className="w-full mb-16">
                         <div className="w-full py-3 border-b-4 border-y-zinc-700">

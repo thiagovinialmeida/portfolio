@@ -5,7 +5,7 @@ export default function Bstart(){
     return(
         <>
             <main>
-                <div className="mt-36">    
+                <div id="Home" className="mt-36">    
                     <h2 className="font-bold text-xl ml-10">Eu sou Thiago Vinicius</h2>
                     <h1 className="text-violet-400 font-bold text-2xl mx-10">Desenvolvedor Web Front-End</h1>
                     <p className="text-zinc-400 w-10/12 m-auto text-right p-5 mt-5">Com tecnologia e harmonia, dando vida á sites que são a cara do futuro.</p>
